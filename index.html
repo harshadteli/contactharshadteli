@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="shortcut icon" href="./assets/IMAGES/harshtech-logo.jpg" type="image/x-icon">
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!--css file-->
+   <link rel="stylesheet" href="./assets/CSS/internet.css">
+   <link rel="stylesheet" href="./assets/CSS/assistent.css">
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<link rel="stylesheet" href="./assets/CSS/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div id="statusPopup" class="typing-effect"></div>
+      <div class="popup-bar" id="popup">
+    <img src="./assets/IMAGES/Natasha.jpg" alt="Assistant">
+    <div class="typing-text" id="typedText">Here to contact to Mr. Harshad Teli through this Form</div>
+  </div>
+      <div class="big-circle"></div>
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+           Hiii, I am Harshad Teli.....<br>
+           I will review your inquiry and get back to you soon with a detailed response or purposal.
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <i class="fa-solid fa-map-location-dot icon"></i>
+              <p>Maharashtra, India 416008</p>
+            </div>
+            <div class="information">
+              <i class="fa-solid fa-envelope icon"></i>
+              <p>harshadteli697@gmail.com</p>
+            </div>
+            <div class="information">
+              <i class="fa-solid fa-phone-volume icon"></i>
+              <p>91+ 9970898012</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p> Connect with Me</p>
+            <div class="social-icons">
+              <a href="https://github.com/harshadteli"><i class="fab fa-github"></i></a>
+              <a href="https://youtube.com/@harshtechaiworld?si=atZyhy8X8SAHiupw"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.instagram.com/ha.rshad4727?igsh=MTlmbHFkMTlnMnh2dQ=="><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/harshad-teli-560700330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <div class="circle one"></div>
+          <div class="circle two"></div>
+          <!-- <form action=""  class="contact-left"> -->
+          <form action="https://api.web3forms.com/submit" method="POST" autocomplete="off" >
+            <h3 class="title">Contact to Harshad </h3>
+            <input type="hidden" name="access_key" value="00192083-e36d-43de-9261-0002bf706a4e">
+            <input type="hidden" name="subject" value="Someone Contact you"/>
+            <input type="hidden" name="Contact Form Data:-"/>
+            <div class="input-container">
+              
+              <input type="text" name="Name:-" class="input" />
+              <label for="">Name</label>
+              <span>Name</span>
+            </div>
+            <div class="input-container">
+              
+              <input type="email" name="Email:-" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+             
+              <input type="tel" name="Phone No:-" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              
+              <textarea name="Message:-" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+           
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/JS/main.js"></script>
+    <!-- <script src="./assets/JS/prevent.js"></script> -->
+     <script src="./assets/JS/internet.js"></script>
+     <script src="./assets/JS/assistent.js"></script>
+  </body>
+</html>
